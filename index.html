@@ -1,22 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ALRunners</title>
+    <title>A.L. Runners Valdivia</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>ALRunners</h1>
-    </header>
 
-    <main>
-      <p>Hello, World!</p>
-    </main>
+    <!-- NAV -->
+    <nav class="nav">
+      <img src="logo.png" alt="A.L. Runners Valdivia" class="nav__logo" />
+      <ul class="nav__links">
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#values">Valores</a></li>
+        <li><a href="#join">Únete</a></li>
+      </ul>
+    </nav>
 
-    <footer>
-      <p>&copy; 2026 ALRunners</p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <img src="logo.png" alt="A.L. Runners Valdivia" class="hero__logo" />
+        <h1 class="hero__title">A.L. Runners <span>Valdivia</span></h1>
+        <p class="hero__subtitle">Club de running en el corazón de la Región de los Ríos</p>
+        <a href="#join" class="btn">Únete al club</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">¿Quiénes somos?</h2>
+        <p class="section__text">
+          Somos un grupo de corredores apasionados de Valdivia, Chile. Nos reunimos para entrenar,
+          superarnos y disfrutar del running en la naturaleza privilegiada de nuestra región.
+          Desde principiantes hasta atletas experimentados, todos son bienvenidos.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <span class="card__icon">🏃</span>
+            <h3>Entrenamientos</h3>
+            <p>Salidas grupales semanales para todos los niveles, adaptadas al ritmo de cada corredor.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon">🌲</span>
+            <h3>Naturaleza</h3>
+            <p>Corremos en los senderos, parques y paisajes únicos que nos regala Valdivia.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon">🤝</span>
+            <h3>Comunidad</h3>
+            <p>Un grupo pequeño, cercano y con ganas de crecer juntos. Más que un club, somos familia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section section--dark" id="values">
+      <div class="container">
+        <h2 class="section__title">Nuestros valores</h2>
+        <ul class="values">
+          <li class="values__item">
+            <span class="values__label">Inclusión</span>
+            <span class="values__desc">Correr es para todos, sin importar el nivel o la edad.</span>
+          </li>
+          <li class="values__item">
+            <span class="values__label">Constancia</span>
+            <span class="values__desc">El progreso viene de la disciplina y el esfuerzo diario.</span>
+          </li>
+          <li class="values__item">
+            <span class="values__label">Respeto</span>
+            <span class="values__desc">Respetamos el ritmo de cada uno y celebramos cada logro.</span>
+          </li>
+          <li class="values__item">
+            <span class="values__label">Pasión</span>
+            <span class="values__desc">Amamos el running y eso nos une.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section class="section" id="join">
+      <div class="container container--narrow">
+        <h2 class="section__title">¿Quieres correr con nosotros?</h2>
+        <p class="section__text">
+          Si estás en Valdivia y tienes ganas de empezar a correr o quieres un grupo con quien entrenar,
+          escríbenos. No importa si eres principiante o llevas años corriendo.
+        </p>
+        <a href="mailto:contacto@alrunners.cl" class="btn">Contáctanos</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <img src="logo.png" alt="A.L. Runners" class="footer__logo" />
+      <p>&copy; 2026 A.L. Runners Valdivia &mdash; Valdivia, Chile</p>
     </footer>
 
     <script src="js/main.js"></script>
